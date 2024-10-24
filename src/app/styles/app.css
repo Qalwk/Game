@@ -1,0 +1,26 @@
+
+  html,
+  body {
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  body {
+    font-family: "Inter", Georgia, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #fff;
+    color: #000;
+  }
+
+  h2 {
+    font-family: "Red Hat Text", Georgia, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
