@@ -6,13 +6,13 @@ import { MainWindow } from '../../widgets/MainWindow'
 
 export function Accounts() {
   return (
-    <div>
+    <>
         <Background/>
         <LayoutContent>
             <NavBar />
             <MainWindow/>
         </LayoutContent>
-    </div>
+    </>
   )
 }
 
