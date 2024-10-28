@@ -1,0 +1,55 @@
+.Background {
+    
+    position: absolute;
+    width: 2133.1px;
+    height: 1324.63px;
+
+    filter: blur(30px);
+
+}
+
+.Background-top-left {
+
+    position: absolute;
+    width: 796.99px;
+    height: 740.39px;
+    left: -265.11px;
+    top: 95.2px;
+
+    background: #F5F0DC;
+    filter: blur(100px);
+
+}
+
+.Background-top-right {
+    position: absolute;
+    width: 2409.75px;
+    height: 444.19px;
+
+    background: #DEF5E0;
+    filter: blur(100px);
+    z-index: 1;
+}
+
+.Background-bottom-left {
+
+    position: absolute;
+    width: 1896.99px;
+    height: 1740.39px;
+
+    background: #FFE6E8;
+    filter: blur(100px);
+
+}
+
+.Background-bottom-right {
+
+    position: absolute;
+    width: 789.93px;
+    height: 838.01px;
+
+    background: #F5F0DC;
+    filter: blur(100px);
+    transform: matrix(0.92, 0.39, -0.51, 0.86, 0, 0);
+
+}

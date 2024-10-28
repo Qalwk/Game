@@ -1,0 +1,18 @@
+.ButtonInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 9.5px 18px;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+.ButtonInput-text {
+    font-size: 12px;
+    color: #606060;
+}

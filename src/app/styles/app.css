@@ -5,8 +5,8 @@
     height: 100%;
   }
   
-  body {
-    font-family: "Inter", Georgia, sans-serif;
+  html {
+    font-family: "Inter", Arial, sans-serif;
     font-weight: 500;
     font-style: normal;
     background-color: #fff;
@@ -14,7 +14,7 @@
   }
 
   h2 {
-    font-family: "Red Hat Text", Georgia, sans-serif;
+    font-family: "Red Hat Text", Arial, sans-serif;
     font-weight: 700;
     font-style: normal;
   }
