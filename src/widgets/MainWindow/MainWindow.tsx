@@ -1,4 +1,3 @@
-import React from 'react'
 import "./MainWindow.css"
 import { ButtonInput } from '../../shared/ui/ButtonInput'
 import { ButtonDefault } from '../../shared/ui/ButtonDefault'

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Background } from '../../shared/ui/Background'
 import { LayoutContent } from '../../shared/ui'
 import { NavBar } from '../../widgets/NavBar'

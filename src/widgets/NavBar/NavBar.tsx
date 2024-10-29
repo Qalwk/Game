@@ -1,4 +1,3 @@
-import React from 'react'
 import "./NavBar.css"
 import { ButtonDefault } from '../../shared/ui/ButtonDefault'
 
