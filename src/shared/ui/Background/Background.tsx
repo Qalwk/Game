@@ -1,12 +1,12 @@
-import "./Background.css"
+import styles from './styles.module.scss'
 
 export function Background() {
   return (
-    <div className='Background'>
-      <div className='Background-top-left'></div>
-      <div className='Background-top-right'></div>
-      <div className='Background-bottom-left'></div>
-      <div className='Background-bottom-right'></div>
+    <div className={styles.background}>
+      <div className={styles.topleft}></div>
+      <div className={styles.topright}></div>
+      <div className={styles.bottomleft}></div>
+      <div className={styles.bottomright}></div>
     </div>
   )
 }

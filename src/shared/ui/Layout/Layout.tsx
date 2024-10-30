@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react'
-import './Layout.css'
+import styles from './styles.module.scss'
 
 interface ViewMarkupProps {
   children: ReactNode
@@ -7,7 +7,7 @@ interface ViewMarkupProps {
 
 export function Layout({ children }: ViewMarkupProps) {
   return (
-    <div className="layout">
+    <div className={styles.layout}>
 
       {children}
 

@@ -1,9 +1,9 @@
 import type { MouseEventHandler } from 'react'
-import './ButtonInput.css'
+import styles from './styles.module.scss'
 
 interface ButtonInputProps {
   variant: 'primary' | 'secondary'
-  color: 'White' | 'Dark' | 'Blue' | 'Green' | 'Yellow' | 'Red'
+  color: 'white' | 'dark' | 'blue' | 'green' | 'yellow' | 'red'
   onClick?: MouseEventHandler<HTMLButtonElement>
   message: string
   className?: string
@@ -12,7 +12,7 @@ interface ButtonInputProps {
 
 export function ButtonInput({
   variant = 'primary',
-  color = 'White',
+  color = 'white',
   onClick,
   className,
   message,
@@ -22,7 +22,7 @@ export function ButtonInput({
       type="button"
       className = {
           `
-          ButtonInput
+          ${styles.default}
           ${variant === 'primary' 
           ? 'primary' 
           : 'secondary'}  
@@ -32,7 +32,7 @@ export function ButtonInput({
       }
       onClick={onClick}
     >
-      <p className='ButtonInput-text'>
+      <p className={styles.text}>
         {message}
       </p>
     </button>

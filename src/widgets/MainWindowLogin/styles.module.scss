@@ -17,30 +17,31 @@
     justify-content: center;
     align-items: center;
     gap: 24px;
+
+    &_wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+
+        &_btn {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 8px;
+            width: 212px;
+
+            &_login {
+                display: flex;
+                justify-content: center;
+            }
+            
+        }
+    }
 }
 
-.MainWindowLogin-wrap {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-}
-
-.MainWindowLogin-wrap-btn {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 8px;
-    width: 212px;
-}
-
-.MainWindowLogin-wrap-btn-login {
-    display: flex;
-    justify-content: center;
-}
-
-.MainWindowLogin-infoText {
+.infoText {
     font-size: 8px;
     color: #9E9E9E;
     text-align: center;

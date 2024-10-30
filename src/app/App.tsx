@@ -1,12 +1,13 @@
-import './styles/index.css'
-// import { Accounts } from '../pages/Accounts/Accounts'
-import { Authorization } from '../pages/Authorization'
+import './styles/index.scss'
+import { BrowserRouter } from 'react-router-dom'
+import { PageRoutes } from '../pages'
 function App() {
 
   return (
     <>
-      <Authorization/>
-      {/* <Accounts/> */}
+      <BrowserRouter>
+        <PageRoutes />
+      </BrowserRouter>
     </>
   )
 }

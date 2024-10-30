@@ -14,7 +14,7 @@
     justify-content: flex-start;
 }
 
-.MainWindow-left {
+.left {
     width: 224px;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@
     gap: 24px;
 }
 
-.MainWindow-line {
+.line {
     width: 1px;
     height: 100%;
     background-color: #000000;
@@ -33,7 +33,7 @@
     opacity: 0.4;
 }
 
-.MainWindow-right {
+.right {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -42,27 +42,43 @@
     margin-right: 42px;
     align-items: flex-start;
     gap: 24px;
+
+    &_info {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+        &_search {
+            display: flex;
+            flex-direction: row;
+            gap: 24px;
+    
+            &_wrap {
+                height: 26px;
+                width: 224px;
+            }
+        }
+    
+        &_add {
+            display: flex;
+            flex-direction: row;
+        }
+    }
 }
 
-.MainWindow-right-info {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+// .MainWindow-right-info-search {
+//     display: flex;
+//     flex-direction: row;
+//     gap: 24px;
+// }
 
-.MainWindow-right-info-search {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-}
+// .MainWindow-right-info-add {
+//     display: flex;
+//     flex-direction: row;
+// }
 
-.MainWindow-right-info-add {
-    display: flex;
-    flex-direction: row;
-}
-
-.MainWindow-right-info-search-wrap {
-    height: 26px;
-    width: 224px;
-}
+// .MainWindow-right-info-search-wrap {
+//     height: 26px;
+//     width: 224px;
+// }
